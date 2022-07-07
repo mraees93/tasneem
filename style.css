@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+* {
+	font-family: "Rubik Moonrocks", cursive;
+	margin: 0;
+	text-decoration: none;
+}
+:root {
+	background-image: url("supernova.jpg");
+	--main-color: rgb(100, 220, 232);
+}
+img {
+	width: 100%;
+	height: 100vh;
+}
+#randomNotesDiv {
+	margin: auto;
+	width: 50%;
+	/* border: 3px solid green; */
+}
+#randomNotes {
+	text-align: center;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	padding: 100px;
+}
+button {
+	background-color: rgb(37, 163, 163);
+}
+.form {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#results {
+	/* margin: 20px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
