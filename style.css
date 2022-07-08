@@ -1,43 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
-* {
-	font-family: "Rubik Moonrocks", cursive;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+input {
+	caret-color: rgb(14, 14, 14);
+}
+
+body {
 	margin: 0;
-	text-decoration: none;
-}
-:root {
-	background-image: url("supernova.jpg");
-	--main-color: rgb(100, 220, 232);
-}
-img {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
-}
-#randomNotesDiv {
-	margin: auto;
-	width: 50%;
-	/* border: 3px solid green; */
-}
-#randomNotes {
-	text-align: center;
-}
-.button {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	position: absolute;
-	padding: 100px;
+	text-align: center;
+	justify-content: center;
+	font-family: poppins;
+}
+.container {
+	position: relative;
+	width: 350px;
+	height: 500px;
+	border-radius: 20px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #5e97c3;
+}
+label,
+input,
+button {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+label {
+	margin-bottom: 4px;
+}
+
+input::placeholder {
+	color: rgb(14, 14, 14);
+}
+
+input {
+	background: #ffffff;
+	padding: 10px;
+	padding-left: 20px;
+	height: 50px;
+	font-size: 14px;
+	border-radius: 50px;
+	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+label {
+	padding: 10px;
+	font-size: 1rem;
 }
 button {
-	background-color: rgb(37, 163, 163);
+	color: white;
+	margin-top: 20px;
+	background: #6d6161;
+	height: 40px;
 }
-.form {
-	margin: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+button:hover {
+	box-shadow: none;
+}
+button textarea {
+	font-size: 1.5rem;
 }
 #results {
-	/* margin: 20px; */
+	margin: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

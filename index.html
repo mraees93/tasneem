@@ -8,13 +8,13 @@
     <title>Jambuddy</title>
 </head>
 <body>
-    <div id = "randomNotesDiv">
+    <div class = "container">
+    <div>
         <p id="randomNotes"></p>
     </div>
-    <div class = "button">
+    <div>
     <button type = "button" id="getRandomNotes">Select random notes</button>
     </div>
-    <img src = "./supernova.jpg"></img>
     <div class = "form">
         <form onsubmit = "displayMsg()">
             <label>Enter your answer:</label>
@@ -23,6 +23,7 @@
         </form>
         <div id = "results"></div>
     </div> 
+</div>
     <script src = "src/jamBuddy.js"></script>
     <script src = "src/DOM.js"></script>  
 </body>
